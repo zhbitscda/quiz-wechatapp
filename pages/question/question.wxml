@@ -1,0 +1,35 @@
+<view class='background'>
+
+
+
+      <view class='userinfo i0'><image  class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="">{{userInfo.nickName}}</text>
+      </view>
+      <view class='userinfo'> 1</view>
+      <view class='userinfo  i2'> 
+      <text disabled='{{disabled}}' data-id="2" >
+{{time}}
+</text>
+<button disabled='{{disabled}}'bindtap="getVerificationCode"></button>
+</view>
+      <view class='userinfo'> 3</view>
+
+</view>
+
+<view class='container1'>
+      
+      <text>{{question}}</text>
+
+      <button  id="A" bindtap="bindAnswer">
+{{answer1}}
+</button>
+      <button    id="B" bindtap="bindAnswer">
+{{answer2}}
+</button>
+      <button   id="C" bindtap="bindAnswer">
+{{answer3}}
+</button>
+      <button   id="D" bindtap="bindAnswer">
+{{answer1}}
+</button>
+      </view>

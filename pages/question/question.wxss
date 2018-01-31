@@ -1,0 +1,45 @@
+.background {
+    height: 200%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+}
+.userinfo {
+display: flex;
+width: 200rpx;
+height: 100rpx;
+border: 1px solid red;
+flex-direction: row;
+justify-content: center
+}
+.userinfo-avatar {
+  display: flex;
+  width: 80rpx;
+  height: 80rpx;
+  margin: 1rpx;
+  border-radius: 50%;
+   border: 1px solid red;
+}
+.i0{
+display: flex;
+width: 300rpx;
+height: 100rpx;
+}
+.i2{
+display: flex;
+width: 300rpx;
+height: 100rpx;
+}
+.container1 {
+  width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+  box-sizing: border-box;
+  background-color: yellow;
+
+  position: relative;
+  top: 200rpx;
+} 
+
